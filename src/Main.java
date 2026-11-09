@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Enter loan amount to borrow:");
         double Loanamount= input.nextDouble();
 
-        System.out.println("\nNAME:" + name);
+        System.out.println("\nNAME:" + name+" personal information");
         System.out.println("AGE:" + age);
         System.out.println("SALARY:" + salary);
         System.out.println("EMPLOYED:" + employed);
