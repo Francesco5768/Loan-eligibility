@@ -20,12 +20,13 @@ public class Main {
         System.out.println("EMPLOYED:" + employed);
         System.out.println("NATIONALITY:" + nationality);
 
-        if (age < 18 || employed == false || salary < 50000||!nationality.equalsIgnoreCase("Kenyan")) {
+        if (age < 18 || employed == false || salary < 70000||!nationality.equalsIgnoreCase("Kenyan")) {
 
             System.out.println("LOAN INELIGIBLE");
         } else {
             System.out.println("LOAN ELIGIBLE");
         }
+        input.close();
     }
     }
 
