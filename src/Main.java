@@ -33,6 +33,7 @@ public class Main {
         } else {
             System.out.println("LOAN ELIGIBLE");
         }
+        System.out.println("Githhub update succesful");
         input.close();
     }
     }
