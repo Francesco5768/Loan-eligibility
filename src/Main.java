@@ -20,14 +20,19 @@ public class Main {
         String Occupation = input.nextLine();
         System.out.println("Enter nationality:");
         String nationality = input.nextLine();
+        System.out.println("Enter loan amount to borrow:");
+        double amount= input.nextDouble();
         System.out.println("\nNAME:" + name);
         System.out.println("AGE:" + age);
         System.out.println("SALARY:" + salary);
         System.out.println("EMPLOYED:" + employed);
         System.out.println("Occupation:" + Occupation);
         System.out.println("NATIONALITY:" + nationality);
+        System.out.println("Loan amount:"+amount);
         if (age < 27|| employed == false || salary < 100000||!nationality.equalsIgnoreCase("Kenyan")) {
 
+            System.out.println("LOAN INELIGIBLE");
+        } else if (amount>500000&&salary<800000) {
             System.out.println("LOAN INELIGIBLE");
         } else {
             System.out.println("LOAN ELIGIBLE");
