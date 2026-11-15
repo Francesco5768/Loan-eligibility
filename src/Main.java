@@ -25,7 +25,7 @@ public class Main {
         System.out.println("EMPLOYED:" + employed);
         System.out.println("Occupation:" + Occupation);
         System.out.println("NATIONALITY:" + nationality);
-        if (age < 23|| employed == false || salary < 40000||!nationality.equalsIgnoreCase("Kenyan")) {
+        if (age < 27|| employed == false || salary < 40000||!nationality.equalsIgnoreCase("Kenyan")) {
 
             System.out.println("LOAN INELIGIBLE");
         } else {
