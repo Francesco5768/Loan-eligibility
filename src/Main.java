@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Occupation:" + Occupation);
         System.out.println("NATIONALITY:" + nationality);
         System.out.println("Loan amount:"+amount);
-        if (age < 27|| employed == false || salary < 100000||!nationality.equalsIgnoreCase("Kenyan")) {
+        if (age < 27|| !employed  || salary < 100000||!nationality.equalsIgnoreCase("Kenyan")) {
 
             System.out.println("LOAN INELIGIBLE");
         } else if (amount>500000&&salary<800000) {
